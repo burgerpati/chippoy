@@ -7,8 +7,45 @@
     <title>CHIPPOY</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <audio id="sound" controls autoplay src="softspot.mp3"></audio>
+
+     <!-- ✅ Add animation CSS here -->
+    <style>
+        .boxLine {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .boxCar {
+            position: absolute;
+            bottom: 50px;
+            left: -200px;
+            width: 100px;
+            animation: moveCar 10s linear infinite;
+            z-index: 10;
+        }
+
+        @keyframes moveCar {
+            0% {
+                left: -200px;
+            }
+            100% {
+                left: 100vw;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="wrapper">
+        <!-- ... rest of your existing content ... -->
+
+        <div class="boxLine">
+            <!-- ✅ This is the animated car -->
+            <div class="boxCar">
+                <img src="../image/car.gif" alt="">
+            </div>
+            
     <div class="wrapper">
         <!-- <img src="../thư love.png" alt=""> -->
         <div class="formInput">
