@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="love.css">
-    <title>CHIPPOY</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -38,7 +38,7 @@
                 <div class="handsCatImgInput">
                     <img src="../image/handsCat.png" alt="">
                 </div>
-                <input type="text" id="inputField" placeholder="Enter a name..." readonly>
+                <input type="text" id="inputField" placeholder="Nhập tên..." readonly>
             </div>
             <div class="buttonLove">
                 <div class="cricleBtn"></div>
@@ -171,7 +171,7 @@
     }
 
     const inputField = document.getElementById('inputField');
-    const textToType = Milky way"; // Enter your name
+    const textToType = "Ngân Hà"; // thay đổi tên người yêu của bạn
     const typingSpeed = 100; // milliseconds per character
 
     let charIndex = 0;
@@ -202,7 +202,7 @@
                 document.querySelector(".button").style.height = "30px"
             },3500)
             setTimeout(()=>{
-                document.querySelector(".button").innerHTML = "Receive Mail"
+                document.querySelector(".button").innerHTML = "Nhận thư"
             },4000)
         }
     }
@@ -215,7 +215,7 @@
     // .textLetter text h2
     let indexText = 0;
     let textLetter = document.querySelector('.textLetter h2');
-    const textLetterH2 = "To you!";
+    const textLetterH2 = "Gửi em!";
     let timoutTextLetter;
 
     function textCharLetter(){
@@ -305,7 +305,7 @@
 
     document.querySelector(".fa-xmark").addEventListener("click", function(){
         indexTextContent = 0; // Reset indexTextContent
-        textLetterContent.textContent = ''; // Delete the current content of textLetter
+        textLetterContent.textContent = ''; // Xóa nội dung hiện tại của textLetter
         clearInterval(timoutTextLetterContent)
         $(".wrapperLetterForm").fadeOut()
     })
