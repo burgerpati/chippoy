@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(255, 218, 232);
+    background: rgb (173, 216, 230);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100;
 }
 .loading{
     position: relative;
