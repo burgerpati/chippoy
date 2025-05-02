@@ -99,7 +99,7 @@ body{
 .progress{
     width: 0px;
     height: 100%;
-    background-color: rgb(244,118,121);
+    background-color: rgb(124, 71, 124);
     left: 0;
     transition: 0.1s;
 }
@@ -117,13 +117,13 @@ body{
 }
 .loading .textLoad{
     font-family: 'Roboto', sans-serif;
-    color: rgb(244,118,121);
+    color: rgb(124, 71, 124);
     font-family: 500;
     font-size: 20px;
     text-transform: uppercase;
 }
 .loading h2 .cricle1, .cricle2, .cricle3{
-    color: rgb(244,118,121);
+    color: rgb(124, 71, 124);
     opacity: 0;
 }
 .cricle1{
