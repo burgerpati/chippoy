@@ -99,7 +99,7 @@ body{
     transform: rotate(20deg);
     transform-origin: top left;
     padding-top: 5px;
-    color: #fff;
+    color: #6a50ca;
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
     animation: textHand 1.5s 6s forwards ease-in;
@@ -135,7 +135,7 @@ body{
 .boxSlider .left, .boxSlider .right{
     position: absolute;
     top: 50%;
-    color: #fff;
+    color: #6a50ca;
     transform: translateY(-50%);
     font-size: 30px;
     cursor: pointer;
