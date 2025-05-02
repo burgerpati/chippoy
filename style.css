@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(176,196,222);
+    background-image: url('https://orig00.deviantart.net/dad8/f/2015/305/b/0/mario_gif_by_ivanrussiansky-d9f6x59.png');
     display: flex;
     justify-content: center;
     align-items: center;
