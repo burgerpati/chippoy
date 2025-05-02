@@ -23,7 +23,7 @@ function startGame() {
     gameScreen.classList.remove('hidden');
 
     dogImg = new Image();
-    dogImg.src = 'pekingese_sprite.png'; // Replace with your sprite sheet path
+    dogImg.src = 'BackgroundEraser_20250502_131244813.png'; // Replace with your sprite sheet path
 
     dogImg.onload = () => {
         // Assume sprite sheet has 4 idle frames, 4 walk frames, and 2 jump frames (adjust as needed)
