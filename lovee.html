@@ -23,17 +23,19 @@
             
             <div class="boxHands">
                 <div class="handsCat">
-                    <img src="../image/handsCat.png" alt="">
+                    <img src="handsCat.png" alt="handsCat">
                 </div>
                 <h1>Welcome</h1>
             </div>
             <div class="boxSlider">
                     <div class="listSlider">
                         <div class="slider">
-                            <img src="../image/love1.jfif" alt="">
+                            <img src="BackgroundEraser_20250502_131244813.png" alt="BackgroundEraser_20250502_131244813"
+
+" alt=">
                         </div>
                         <div class="slider">
-                            <img src="../image/love2.png" alt="">
+                            <img src="BackgroundEraser_20250502_131244813.png" alt="BackgroundEraser_20250502_131244813">
                         </div>
                     </div>
                 <div class="left">
@@ -45,9 +47,9 @@
             </div>
             <div class="boxHandsInput">
                 <div class="handsCatImgInput">
-                    <img src="../image/handsCat.png" alt="">
+                    <img src="handsCat.png" alt="handsCat">
                 </div>
-                <input type="text" id="inputField" placeholder="Nhập tên..." readonly>
+                <input type="text" id="inputField" placeholder="Enter your name" readonly>
             </div>
             <div class="buttonLove">
                 <div class="cricleBtn"></div>
@@ -103,21 +105,21 @@
                 <div class="wrapperLetter">
                     <div class="giftbox">
                         <div class="img">
-                            <img src="../image/giftbox.png" alt="">
+                            <img src="giftbox.png" alt="giftbox">
                         </div>
                     </div>
                     <div class="textLetter">
                         <h2></h2>
                         <p class="contentLetter"></p>
                         <div class="heartAnimation">
-                            <img src="../image/heartAnimation.gif" alt="">
+                            <img src="heartAnimation.gif" alt="heartAnimation">
                         </div>
                     </div>
                     <div class="mewmew1">
-                        <img src="../image/mewmew.gif" alt="">
+                        <img src="mewmew.gif" alt="mewmew">
                     </div>
                     <div class="mewmew2">
-                        <img src="../image/mewmew.gif" alt="">
+                        <img src="mewmew.gif" alt="mewmew">
                     </div>
                 </div>
             </div>
@@ -224,7 +226,7 @@
     // .textLetter text h2
     let indexText = 0;
     let textLetter = document.querySelector('.textLetter h2');
-    const textLetterH2 = "Gửi em!";
+    const textLetterH2 = "To Chippoy!";
     let timoutTextLetter;
 
     function textCharLetter(){
@@ -253,7 +255,7 @@
     let indexTextContent = 0;
     let textLetterContent = document.querySelector('.contentLetter');
     // thay đổi lời chúc
-    const textLetterP = "1 tuần có 7 ngày. 1 ngày có 24 giờ. 1 giờ có 60 phút. 1 phút có 60 giây. Không có một ngày hoặc giờ mà tôi không nhớ bạn. Không có giây phút nào mà anh không nghĩ đến cậu. Tâm hồn và trái tim tôi tràn ngập bạn. Nhớ và yêu em nhiều lắm.";
+    const textLetterP = "I miss you";
     let timoutTextLetterContent;
     function textCharLetterContent(){
         if (indexTextContent < textLetterP.length) {
@@ -288,7 +290,7 @@
         let timeout = setInterval(()=>{
             var letters = document.createElement("div");
             letters.className = "letters"
-            letters.innerHTML = '<img src="../image/letters.png" alt="">';
+            letters.innerHTML = '<img src="letters.png" alt="letters">';
             document.querySelector("body").prepend(letters)
             let left = Math.floor(Math.random() * 100);
             let rotate = Math.floor(Math.random() * 360);
