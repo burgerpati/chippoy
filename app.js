@@ -38,7 +38,7 @@ function progressInterva(){
             button.style.transform= "scale(1)";
         },800);
         setTimeout(()=>{
-            button.style.background = "rgb(244,118,121)"
+            button.style.background = "rgb(70,130,180)"    
             button.style.width = "130px";
             button.style.borderRadius = "20px"
         },1500)
