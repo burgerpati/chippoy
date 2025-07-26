@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NEU ROSES: Pixel Love Quest</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #111;
+      overflow: hidden;
+    }
+
+    /* Intro Screen */
+    #intro {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: url('https://i.pinimg.com/originals/50/c7/38/50c738083fa2175842f6448e2e610b45.gif') center/cover no-repeat;
+      image-rendering: pixelated;
+    }
+
+    #gameTitle {
+      font-family: 'Press Start 2P', cursive;
+      color: #ff80aa;
+      font-size: 32px;
+      text-shadow: 2px 2px #000;
+      margin-bottom: 50px;
+    }
+
+    #startText {
+      font-family: 'Press Start 2P', cursive;
+      color: #fff;
+      font-size: 20px;
+      text-shadow: 2px 2px #000;
+      animation: blink 1s step-end infinite alternate;
+      cursor: pointer;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Intro Screen -->
+  <div id="intro">
+    <div id="gameTitle">CHIPPOY'S PLACE</div>
+    <div id="startText">PRESS START</div>
+  </div>
+
+  <script>
+    const startText = document.getElementById('startText');
+
+    function startGame() {
+      // Redirect to your game HTML file
+      window.location.href = 'jas.html';
+    }
+
+    // Click or press Enter/Space to start
+    startText.addEventListener('click', startGame);
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') startGame();
+    });
+  </script>
+</body>
+</html>
