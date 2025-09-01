@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('https://i.pinimg.com/originals/e4/6a/8a/e46a8a65249e7f19b2ad4c2fd9d1b171.gif');
+    background: url('https://i.pinimg.com/originals/ff/6b/34/ff6b34e1bea7044ed85ae15f0924d5e9.gif');
     display: flex;
     justify-content: center;
     align-items: center;
